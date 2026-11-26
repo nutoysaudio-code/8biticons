@@ -1,0 +1,43 @@
+{
+  "name": "8bit-icons",
+  "displayName": "8bit Icons",
+  "description": "Tema de iconos pixel art para el explorador de VS Code: más de 70 iconos de 16×16 con estética 8-bit",
+  "version": "1.0.0",
+  "publisher": "MartinAlejandroOviedo",
+  "license": "MIT",
+  "icon": "icons/icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icons",
+    "icon theme",
+    "file icons",
+    "8bit",
+    "pixel art",
+    "retro"
+  ],
+  "galleryBanner": {
+    "color": "#1a1626",
+    "theme": "dark"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "8bit-icons",
+        "label": "8bit Icons",
+        "path": "./themes/8bit-icons-theme.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "8bit Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/8bit-dark-color-theme.json"
+      }
+    ]
+  }
+}

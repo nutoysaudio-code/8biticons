@@ -1,0 +1,66 @@
+{
+  "name": "8bit Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#171321",
+    "editor.foreground": "#f5efdc",
+    "editor.lineHighlightBackground": "#241d33",
+    "editor.selectionBackground": "#4a3a66",
+    "editorCursor.foreground": "#f2c14e",
+    "editorGutter.foreground": "#6e7385",
+    "sideBar.background": "#1a1626",
+    "statusBar.background": "#45a8a0"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6e7385",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#e07a4f"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#a8c256"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "number",
+      "settings": {
+        "foreground": "#4e9ec7"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#f5efdc"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#f2c14e"
+      }
+    },
+    {
+      "name": "Type",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#45a8a0"
+      }
+    }
+  ]
+}
